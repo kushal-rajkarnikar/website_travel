@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Poppins;
 }
 
 .flex {
@@ -50,6 +48,7 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
+  font-family: Poppins;
 }
 
 .booking-header {
@@ -145,4 +144,97 @@ body {
 #intro {
   padding-top: 220px;
   padding-bottom: 220px;
+}
+
+section h2 {
+  color: #514d59;
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 85.714% */
+  margin-bottom: 90px;
+}
+
+#goods {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.goods-block {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.goods-parent {
+  display: flex;
+}
+
+.goods-block h3 {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  color: #514d59;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.goods-block p {
+  color: #514d59;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+/* cities section */
+#cities {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  border: 1px solid rgba(81, 77, 89, 0.15);
+  background: #fafafa;
+}
+
+.cities-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 170px;
+}
+
+.cities-flex:last-child {
+  margin-bottom: 0;
+}
+
+.cities-flex > div {
+  width: 50%;
+}
+
+section#cities h2 {
+  text-align: left;
+}
+
+#cities h2 {
+  color: #514d59;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 120% */
+  margin-bottom: 30px;
+}
+
+#cities a {
+  color: #7000ff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 40px;
+  text-decoration: none;
+  display: inline-block;
 }
