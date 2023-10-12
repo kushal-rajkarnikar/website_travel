@@ -238,3 +238,118 @@ section#cities h2 {
   text-decoration: none;
   display: inline-block;
 }
+
+#testimonials {
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+#testimonials .author {
+  float: right;
+}
+
+.testimonial-block {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-block small{
+  color: #514D59;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /
+}
+
+#testimonials h2{
+  color: #514D59;
+text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+}
+
+footer{
+  background: #333333;
+  padding-top: 30px;
+  /* padding-bottom: 80px; */
+}
+
+.social-media{
+  list-style-type: none;
+  display: flex;
+  margin-top: 75px;
+}
+
+.social-media li a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-media li:first-child a{
+  padding-left: 0;
+}
+
+footer a{
+  color: #FAFAFA;
+text-decoration: none;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-flex{
+  display: flex;
+}
+
+.footer-block{
+  flex-grow: 1;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: a;
+}
+
+footer{
+  color: white;
+}
+
+footer h2{
+  margin-bottom: 25px;
+}
+
+.footer-bottom{
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .footer-bottom ul li{
+  margin-bottom: 0;
+}
+
+footer .footer-bottom ul li a{
+  color: #625F67;
+  padding-left: 50px;
+}
+
+footer .footer-bottom{
+ color: #625F67;
+ margin-top: 87px;
+}
